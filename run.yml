@@ -1,0 +1,12 @@
+---
+  - hosts: cores
+    connection: local
+    roles:
+      - vlan
+    tags: vlan
+
+  - hosts: all
+    connection: local
+    roles:
+      - logging
+    tags: logging

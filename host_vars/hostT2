@@ -1,0 +1,10 @@
+---
+logging:
+  - something: "WHAT 1 T2"
+    logging_details:
+      - server: 100.100.100.1
+        user: user1_T2
+  - something: "WHAT 2 T2"
+    logging_details:
+      - server: 200.200.200.1
+        user: user2_T2

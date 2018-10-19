@@ -1,0 +1,16 @@
+---
+vlan:
+  - vlanid: 1000
+    name: vlan1000
+  - vlanid: 2000
+    name: vlan2000
+
+logging:
+  - something: "WHAT 1 C2"
+    logging_details:
+      - server: 100.100.100.1
+        user: user1_C2
+  - something: "WHAT 2 C2"
+    logging_details:
+      - server: 200.200.200.1
+        user: user2_C2

@@ -1,0 +1,10 @@
+---
+- name: Logging for both
+  debug:
+    msg: "Greeting {{ common_message }}! Logging {{ item.0.something}} and {{ item.1.server }} and {{ item.1.user }}."
+  with_subelements:
+    - "{{ logging }}"
+    - logging_details
+    # - "{{ new_message }}"
+    # - to
+# {{ item.2.from }} sent {{ item.3.carrier }} to {{ item.3.receiver }} and the price was {{ item.3.price }}

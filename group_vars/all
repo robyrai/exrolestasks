@@ -1,0 +1,17 @@
+---
+common_var:
+  - second_greet: 'Aloha'
+    first_greet:
+      - nepali: Namaste
+        english: Hello
+    third_greet: ['Privet','Nihau']
+      # - russian: Privet
+      #   chinese: 'Nihau'
+common_message: 'HELLO WORLD'
+
+new_message:
+  - from: Aloha
+    to:
+      - carrier: Namaste
+        receiver: Hello
+    price: 20

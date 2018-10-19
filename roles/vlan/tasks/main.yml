@@ -1,0 +1,8 @@
+---
+- name: vlan for cores
+  debug:
+    msg: "Greetings {{ item.0.second_greet }}, {{ item.1.nepali }} and {{ item.1.english }}. Finally {{ item.0.third_greet[0] }} and {{ item.0.third_greet[1] }}!"
+  loop: "{{ common_var|subelements('first_greet')}}"
+    # - "{{ vlan }}"
+    # - "{{ common_var|subelements('first_greet') }}"
+# Vlan id {{ item.0.vlanid }} and vlan name {{ item.0.name }}
